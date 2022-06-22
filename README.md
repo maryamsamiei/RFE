@@ -10,8 +10,8 @@ You can use BigPipeline environment.
 Required arguments:
 | Argument                | Descripion |
 | ---------------------- |--------------------- |
-| --input_train |Path to pEA matrix (.csv file) of training set with sample IDs on the rows (index) and genes of ineterest on the columns. Last column is the labels|
-| --input_test   |Path to pEA matrix (.csv file) of testing set with samples on the rows and genes of ineterest on the columns.Last column is the labels|
+| --input_train |Path to pEA matrix (.csv file) of training set with sample IDs on the rows (index) and genes of ineterest on the columns. Last column is the labels (0 for controls and 1 for cases)|
+| --input_test   |Path to pEA matrix (.csv file) of testing set with samples on the rows (index) and genes of ineterest on the columns.Last column is the labels (0 for controls and 1 for cases)|
 | --genes  | Path to a .csv file with genes of interest. Each gene should be on a separate row w/o a header |
 | --savepath           | Path for output file |
 
