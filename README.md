@@ -4,7 +4,7 @@ Recursive Feature Elimination (RFE) algorithm to remove potentially redundant ge
 
 ## Installation
 You can use BigPipeline environment.
-conda activate pyBigPipeline
+* conda activate pyBigPipeline
 
 
 ## Usage
@@ -19,7 +19,7 @@ Required arguments:
 ## Command line example
 ```bash
 #run RFE.py
-python RFE.py --input_train Path/to/training_input_matrix.csv --input_test Path/to/testing_input_matrix --savepath save/directory/ --genes Path/to/GenesofInterest/genes.csv
+python RFE.py --input_train Path/to/training_input_matrix.csv --input_test Path/to/testing_input_matrix.csv --savepath save/directory/ --genes Path/to/GenesofInterest/genes.csv
 ```
 
 ## Output
